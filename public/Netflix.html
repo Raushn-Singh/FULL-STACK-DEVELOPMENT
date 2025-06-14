@@ -28,16 +28,66 @@
       p{
         font-size: 24px;
       }
+      header{
+    display: flex;
+    justify-content: space-between;
+      }
+      button{
+        background-color: red;
+        color: white;
+        border:none;
+      }
+      button,select{
+       height: 30px;
+       width:100px;
+      }
+ #email{
+  height: 30px;
+  
+ }
      </style>
+     <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+     <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
   </head>
   <body>
+    <header>
+      <div>
+        <font color="red">
+       <font size="5">N</font>
+       <font size="5">E</font>
+       <font size="5">T</font> 
+       <font size="5">F</font>
+       <font size="5">L</font>
+       <font size="5">I</font>
+       <font size="5">X</font></font>
+      </div>
+      <div>
+        <select>
+          <option>Language</option>
+          <option>
+            English
+          </option>
+<option>Hindi</option>
+        </select>
+        <button>Sign in</button>
+
+      </div>
+      </header>
     <div class="container">
+    
       <div class="main-content">
         <h1>Unlimited movies, TV shows and more
         </h1>
-        <p>
-          Starts at ₹149. Cancel at any time.</p>
+        <p> Starts at ₹149. Cancel at any time.</p> 
+       
       </div>
+       <p>
+          <div class="input-group">
+             
+          <input id="email" type="email" placeholder="Your Email address">
+          <Button>GetStarted <span class="bi bi-chevron-right"></span></Button> 
+          </div>
+        </p>
     </div>
   </body>
 </html>
